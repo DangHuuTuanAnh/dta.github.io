@@ -1,0 +1,165 @@
+li{
+	list-style: none;
+}
+ul{
+	display: flex;
+}
+ul li{
+	margin-left: 20px;
+}
+.content-menu{
+	float: right;
+}
+.header{
+	display: flex;
+}
+img{
+	width: 100%;
+}
+footer{
+	background-color: #252e30;
+	color: white;
+}
+.img-portfolio{
+	height: 250px;
+}
+.btn-carousel{
+	width: 8px!important;
+	background-color: white!important;
+	border-radius: 100%;
+	height: 8px!important;
+}
+
+.slide-header{
+	display: flex; 
+	flex-direction: column; 
+	flex-wrap: wrap-reverse; 
+}
+.resume{
+	position: relative;
+	background-color: #f2f2f1;
+}
+.font-icons:before{
+	color: #2ecc71;
+	font-size: 40px;
+}
+.resume:before {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	border-top: 10px solid #eee;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+.content-banner{
+	margin-bottom: 10rem;
+	background-color: #e9ecef00;
+
+}
+.word-banner{
+	margin-left: 100px;
+	width: 660px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.navbar-menu:hover{
+	color: #2ca260;
+}
+.btn-banner{
+	color:#ffffff;
+	border:1px solid #ffffff;
+	background-color: #e9ecef00;
+	padding:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 40px;
+}
+.content-bottom-menu{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.title{
+	color: #566366;
+}
+.about-me{
+	padding: 50px;
+}
+.text-content{
+	color: #919191;
+}
+.my-skills{
+	padding:50px;
+}
+.bg-success{
+	background-color: #4eba6f!important;
+}
+.my-edu{
+	padding:50px;
+}
+.gpa{
+	width: max-content;
+	background-color: #2ecc71;
+	color: #ffffff;
+	padding: 5px;
+}
+.work-exp{
+	padding: 50px;
+}
+.carousel-before-portfolio{
+	background-color: #2ecc71!important;
+}
+.padding-content{
+	padding: 50px;
+}
+
+.img-hover{
+	position: relative;
+	img {
+		position: absolute;
+		padding-right: 30px;
+	}
+	div {
+		position: absolute;
+		background-color: #2ecc71;
+		width: 92%;
+		height: 100%;
+		padding-right: 30px;
+		display: none;
+		opacity: 0.5;
+
+	}
+	&:hover div{
+			display: block;
+		};
+
+}
+/*.img-hover:hover div{
+	display: block;
+	}*/
+
+	.bg-input{
+		width: 100%;
+		background-color: #4b5456;
+		border: none;
+		margin-bottom: 10px;
+	}
+	.btn-contact{
+		color:#ffffff;
+		background-color: #191f21;
+		border: none;
+		padding: 10px;
+	}
+	.text-footer{
+		color: #e2e3e3;
+	}
+	.icons{
+		width: 4%;
+		border: 1px solid;
+		border-radius: 100%;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.bg-jumbotron{
+		background-color: #f2f2f1!important;
+	}
