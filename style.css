@@ -12,6 +12,10 @@ ul li{
 }
 .header{
 	display: flex;
+	display: flex; 
+    justify-content: space-around; 
+}
+.content-header{
 }
 img{
 	width: 100%;
@@ -32,8 +36,8 @@ footer{
 
 .slide-header{
 	display: flex; 
-    flex-direction: column; 
-    flex-wrap: wrap-reverse; 
+	flex-direction: column; 
+	flex-wrap: wrap-reverse; 
 }
 .resume{
 	position: relative;
@@ -41,16 +45,16 @@ footer{
 }
 .font-icons:before{
 	color: #2ecc71;
-    font-size: 40px;
+	font-size: 40px;
 }
 .resume:before {
 	content: "";
 	position: absolute;
 	bottom: -10px;
-	left: 50%;
+	left: 48.5%;
 	border-top: 10px solid #eee;
-	border-right: 10px solid transparent;
-	border-left: 10px solid transparent;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
 }
 .content-banner{
 	margin-bottom: 10rem;
@@ -58,17 +62,22 @@ footer{
 
 }
 .word-banner{
-	margin-left: 100px;
-    width: 660px;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	/*border-top: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;*/
+}
+hr{
+	border: 1px solid white;
+	width: 80%;
+}
+.navbar-menu{
+	font-weight: bold;
 }
 .navbar-menu:hover{
 	color: #2ca260;
 }
 .btn-banner{
 	color:#ffffff;
-	border:1px solid #ffffff;
+	border:2px solid #ffffff;
 	background-color: #e9ecef00;
 	padding:10px;
 	padding-left: 20px;
@@ -80,7 +89,11 @@ footer{
 	padding-bottom: 50px;
 }
 .title{
+	font-weight: bold;
 	color: #566366;
+}
+.display-4{
+	font-weight: 600;
 }
 .about-me{
 	padding: 50px;
@@ -106,6 +119,10 @@ footer{
 .work-exp{
 	padding: 50px;
 }
+.progress{
+	border-radius: 0!important;
+	height: 1.4rem!important;
+}
 .carousel-before-portfolio{
 	background-color: #2ecc71!important;
 }
@@ -118,6 +135,7 @@ footer{
 }
 .img-hover:hover div{
 	display: block;
+	box-sizing: border-box;
 }
 .img-hover img{
 	position: absolute;
@@ -126,13 +144,19 @@ footer{
 .img-hover div{
 	position: absolute;
 	background-color: #2ecc71;
-	width: 92%;
+	width: 91.5%;
 	height: 100%;
 	padding-right: 30px;
 	display: none;
 	opacity: 0.5;
 }
-
+.color-hover{
+	color:#ffffff;
+}
+.a{
+	display: flex;
+	justify-content: center;
+}
 .bg-input{
 	width: 100%;
 	background-color: #4b5456;
@@ -144,16 +168,25 @@ footer{
 	background-color: #191f21;
 	border: none;
 	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: bold;
 }
 .text-footer{
 	color: #e2e3e3;
 }
 .icons{
-	width: 4%;
-	border: 1px solid;
+	width: 25px;
 	border-radius: 100%;
-	margin-left: 5px;
-	margin-right: 5px;
+	background-color: #4b5456;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.icons:hover .color-icons{
+	color: #ffffff;
+}
+.color-icons{
+	color: #191f21;
 }
 .bg-jumbotron{
 	background-color: #f2f2f1!important;
